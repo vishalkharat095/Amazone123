@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="0" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-12T23:36:25 IST" name="Default suite" finished-at="2022-02-12T23:36:25 IST" duration-ms="63">
+    <groups>
+    </groups>
+    <test started-at="2022-02-12T23:36:25 IST" name="Default test" finished-at="2022-02-12T23:36:25 IST" duration-ms="63">
+      <class name="tests.TestNGTestClass">
+        <test-method is-config="true" signature="launchTheBrowser(java.lang.String)[pri:0, instance:tests.TestNGTestClass@31d7b7bf]" started-at="2022-02-12T23:36:25 IST" name="launchTheBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1644689185710" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method launchTheBrowser but has not been marked @Optional or defined
+in C:\Users\ASUS\AppData\Local\Temp\testng-eclipse-1128750127\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method launchTheBrowser but has not been marked @Optional or defined
+in C:\Users\ASUS\AppData\Local\Temp\testng-eclipse-1128750127\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="createPOMObjects()[pri:0, instance:tests.TestNGTestClass@31d7b7bf]" started-at="2022-02-12T23:36:25 IST" name="createPOMObjects" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1644689185737" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObjects -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:tests.TestNGTestClass@31d7b7bf]" started-at="2022-02-12T23:36:25 IST" name="loginToApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1644689185753" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="checkLogoOfHomePage()[pri:0, instance:tests.TestNGTestClass@31d7b7bf]" started-at="2022-02-12T23:36:25 IST" name="checkLogoOfHomePage" finished-at="2022-02-12T23:36:25 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method launchTheBrowser but has not been marked @Optional or defined
+in C:\Users\ASUS\AppData\Local\Temp\testng-eclipse-1128750127\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method launchTheBrowser but has not been marked @Optional or defined
+in C:\Users\ASUS\AppData\Local\Temp\testng-eclipse-1128750127\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLogoOfHomePage -->
+        <test-method is-config="true" signature="logoutFromTheApplication(org.testng.ITestResult)[pri:0, instance:tests.TestNGTestClass@31d7b7bf]" started-at="2022-02-12T23:36:25 IST" name="logoutFromTheApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1644689185760" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromTheApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:tests.TestNGTestClass@31d7b7bf]" started-at="2022-02-12T23:36:25 IST" name="loginToApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1644689185761" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="checkURLOfSearchBox()[pri:0, instance:tests.TestNGTestClass@31d7b7bf]" started-at="2022-02-12T23:36:25 IST" name="checkURLOfSearchBox" finished-at="2022-02-12T23:36:25 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method launchTheBrowser but has not been marked @Optional or defined
+in C:\Users\ASUS\AppData\Local\Temp\testng-eclipse-1128750127\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method launchTheBrowser but has not been marked @Optional or defined
+in C:\Users\ASUS\AppData\Local\Temp\testng-eclipse-1128750127\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkURLOfSearchBox -->
+        <test-method is-config="true" signature="logoutFromTheApplication(org.testng.ITestResult)[pri:0, instance:tests.TestNGTestClass@31d7b7bf]" started-at="2022-02-12T23:36:25 IST" name="logoutFromTheApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1644689185764" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromTheApplication -->
+        <test-method is-config="true" signature="clearrPOMObjects()[pri:0, instance:tests.TestNGTestClass@31d7b7bf]" started-at="2022-02-12T23:36:25 IST" name="clearrPOMObjects" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1644689185766" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearrPOMObjects -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:tests.TestNGTestClass@31d7b7bf]" started-at="2022-02-12T23:36:25 IST" name="closeTheBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1644689185768" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- tests.TestNGTestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
